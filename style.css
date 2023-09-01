@@ -1,0 +1,59 @@
+/* Styling for rotating arrow */
+.arrow-rotate {
+  transform: rotate(180deg);
+}
+/* Styling for collapsed content */
+.collapsed-content {
+  width: 100px; /* Width when collapsed */
+  transition: width 0.3s ease; /* Add smooth width transition */
+}
+/* Styling for visible uploadTitle */
+#uploadTitle {
+  display: block;
+}
+/* Styling for hidden uploadTitle */
+#uploadTitle.hidden {
+  display: none;
+}
+/* Add transition for the collapsed state and rotation */
+.collapsed-content, #arrow {
+  transition: all 0.3s ease; /* Transition duration and easing */
+}
+
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(77, 54, 208, 1) 0%,
+    rgba(132, 116, 254, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  border-radius: 10em;
+  width: 195px;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 8px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}
+
+#previewImage1 , #previewImage2{
+  cursor:move;
+}
+
